@@ -1,0 +1,414 @@
+/* Colores */
+:root {
+  --rojo: #ff4343;
+  --verde: #55ff00;
+  --gris: #858585;
+  --verdecito: #00743cc6;
+}
+
+::selection {
+  color: rgb(0, 255, 4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #9d9d9d90 !important;
+}
+
+/* Menú de navegación */
+.navbar {
+  background-color: transparent !important; /* Fondo transparente */
+  padding: 8px 0; /* Aumenta el espacio vertical */
+  position: absolute; /* Coloca el navbar sobre la imagen */
+  top: 0; /* Ajusta la posición */
+  width: 100%; /* Ocupa todo el ancho */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(../img/_ad4dc275-c583-4cf1-9216-d120ab7593e0.jpeg);
+}
+
+.titleHero {
+  color: white;
+  text-align: center;
+}
+
+.box_hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(../img/_bf508538-a9f0-4db2-9cdb-342377aebdd.jpeg);
+  background-position: top;
+  background-size: cover;
+  margin-bottom: -9px;
+  /* background-position: 0 0;
+    background-repeat: no-repeat;
+    animation: move 20s ease-in-out infinite; */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold; /* Texto en negrita */
+  font-size: 18px; /* Aumenta el tamaño de la fuente */
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Estilo para el título del periódico */
+#nombre-periodico {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333; /* Color del texto */
+  text-align: center;
+  margin-top: 20px; /* Margen superior */
+}
+
+/* Portada */
+
+.concepto {
+  margin: 20px !important;
+}
+
+h2, h4 {
+  text-align: center;
+}
+
+/* Estilo para las imágenes dentro de la sección de conceptos */
+.concepto img {
+  max-width: 400px;
+  height: 250px;
+  display: block;
+  margin: 0 auto; /* Centrar las imágenes horizontalmente */
+}
+
+#inicio {
+  background-image: url("imagen-portada.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.conceptos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: #ffe7d7;
+}
+
+.concepto {
+  flex-basis: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.concepto h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.concepto p {
+  color: #fff;
+}
+
+/* Sección de Noticias */
+#noticias {
+  margin-top: 50px;
+}
+
+/* Estilo para las descripciones de las noticias */
+.news-description {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555; /* Color del texto */
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilo para las características de las noticias */
+.news-characteristics {
+  font-size: 20px;
+  color: #777; /* Color del texto */
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilo para las imágenes de las noticias */
+.noticia img {
+  max-width: 350px;
+  height: auto;
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilo para los líderes de las noticias */
+.noticia .center {
+  text-align: center;
+  font-style: italic;
+  color: #888; /* Color del texto */
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+.noticia {
+  background-color: #ffe7d7;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.noticia h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.noticia p {
+  color: #555;
+}
+
+
+
+p {
+  font-size: larger;
+}
+
+/*Footer*/
+
+a > i {
+  color: #ffffff;
+}
+
+.center1 {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.iconos {
+  font-size: 0; /* eliminar espacio entre elementos inline-block */
+}
+
+.iconos i {
+  display: inline-block;
+  font-size: 23px;
+  margin-right: 13px;
+  margin-left: 19px;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  padding: 20px;
+  background-color: var(--negro);
+  color: white;
+}
+
+.center1 > a,
+.col > .sub1,
+.separacion > a {
+  color: #ffffff;
+}
+
+.center1 > a:hover,
+.col > .sub1:hover,
+.separacion > a:hover {
+  color: var(--verdecito);
+  border-bottom: 1px dashed var(--verdecito);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo-column > img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  width: 70%;
+}
+
+.logo-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.logo-column {
+  flex: 1 0 200px;
+  margin-right: 15px;
+}
+
+.info-column,
+.services-column,
+.contact-column {
+  flex: 1 0 200px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.abajo {
+  border-bottom: solid 3px var(--verdecito);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-column ul,
+.services-column ul,
+.contact-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info-column h4,
+.services-column h4,
+.contact-column h4 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+a > i:hover {
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.contact-column li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-column li a {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.contact-column li i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.contact-column {
+  width: 100%;
+}
+
+/* Estilos Generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  * {
+    text-align: center;
+  }
+  .scene {
+    position: relative;
+    left: -78px;
+  }
+}
+@media (max-width: 600px) {
+  .menu-icon {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .menu-icon::before,
+  .menu-icon::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+  }
+
+  .menu-icon::before {
+    top: -6px;
+  }
+
+  .menu-icon::after {
+    bottom: -6px;
+  }
+
+  .menu-toggle {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 285px) {
+  .separacion {
+    margin-top: 1em;
+  }
+}
+
+@media (max-width: 240px) {
+  * {
+    text-align: center;
+  }
+
+  .scene {
+    position: relative;
+    left: -78px;
+  }
+  .separacion {
+    margin-top: 1em;
+  }
+}
