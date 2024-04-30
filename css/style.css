@@ -47,7 +47,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/_bf508538-a9f0-4db2-9cdb-342377aebdd.jpeg);
+  background-image: url(../img/A.jpeg);
   background-position: top;
   background-size: cover;
   margin-bottom: -9px;
@@ -112,8 +112,8 @@ h4 {
 }
 
 #inicio {
-  background-image: url("imagen-portada.jpg");
-  background-size: cover;
+ 
+
   color: #fff;
   text-align: center;
   padding: 100px 0;
