@@ -131,7 +131,7 @@ h4 {
 .concepto {
   flex-basis: 30%;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -408,7 +408,7 @@ a > i:hover {
 
 @media (max-width: 600px) {
   .concepto img {
-    max-width: 340px;
+    max-width: 300px;
     height: 220px;
     display: block;
     margin: 0 auto; /* Centrar las imágenes horizontalmente */
