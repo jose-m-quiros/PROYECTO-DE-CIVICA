@@ -131,7 +131,7 @@ h4 {
 .concepto {
   flex-basis: 30%;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -412,6 +412,7 @@ a > i:hover {
     height: 200px;
     display: block;
     margin: 0 auto; /* Centrar las imágenes horizontalmente */
+
   }
 }
 
