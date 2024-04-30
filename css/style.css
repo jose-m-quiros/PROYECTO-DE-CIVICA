@@ -427,4 +427,15 @@ a > i:hover {
     height: auto;
     margin-bottom: 10px; /* Margen inferior */
   }
+
+  .conceptos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #ffe7d7;
+    margin-left: 9px;
+    margin-right: 9px;
+    
+  }
+
 }
