@@ -32,7 +32,7 @@ body {
   position: absolute; /* Coloca el navbar sobre la imagen */
   top: 0; /* Ajusta la posición */
   width: 100%; /* Ocupa todo el ancho */
-  /*background-image: url(../img/_ad4dc275-c583-4cf1-9216-d120ab7593e0.jpeg);*/
+  background-image: url(../img/_ad4dc275-c583-4cf1-9216-d120ab7593e0.jpeg);
 }
 
 .titleHero {
