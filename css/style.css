@@ -51,9 +51,6 @@ body {
   background-position: top;
   background-size: cover;
   margin-bottom: -9px;
-  /* background-position: 0 0;
-    background-repeat: no-repeat;
-    animation: move 20s ease-in-out infinite; */
 }
 
 .nav-link,
@@ -127,6 +124,9 @@ h4 {
   justify-content: space-around;
   margin-top: 20px;
   background-color: #ffe7d7;
+  margin-left: 9px;
+  margin-right: 9px;
+  
 }
 
 .concepto {
