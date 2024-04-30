@@ -148,6 +148,8 @@ h4 {
 /* Sección de Noticias */
 #noticias {
   margin-top: 50px;
+  margin-left: 9px;
+  margin-right: 9px;
 }
 
 /* Estilo para las descripciones de las noticias */
@@ -185,8 +187,7 @@ h4 {
   padding: 20px;
   border-radius: 5px;
   margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 20px;
+  
   text-align: center;
 }
 
