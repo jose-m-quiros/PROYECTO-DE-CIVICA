@@ -104,6 +104,12 @@ h4 {
   text-align: center;
 }
 
+.h1 {
+  color: #000 !important;
+  text-align: center;
+}
+
+
 /* Estilo para las imágenes dentro de la sección de conceptos */
 .concepto img {
   max-width: 400px;
