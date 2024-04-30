@@ -32,8 +32,7 @@ body {
   position: absolute; /* Coloca el navbar sobre la imagen */
   top: 0; /* Ajusta la posición */
   width: 100%; /* Ocupa todo el ancho */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-    url(../img/_ad4dc275-c583-4cf1-9216-d120ab7593e0.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
 }
 
 .titleHero {
@@ -48,14 +47,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-    url(../img/_bf508538-a9f0-4db2-9cdb-342377aebdd.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
   background-position: top;
   background-size: cover;
   margin-bottom: -9px;
   /* background-position: 0 0;
     background-repeat: no-repeat;
     animation: move 20s ease-in-out infinite; */
+}
+
+.nav-link, .navbar-brand {
+  color: black !important;
+  font-weight: bold !important;
 }
 
 nav ul {
@@ -409,10 +412,8 @@ a > i:hover {
     height: 220px;
     display: block;
     margin: 0 auto; /* Centrar las imágenes horizontalmente */
-  }  
+  }
 }
-
-
 
 @media (max-width: 600px) {
   .noticia img {
