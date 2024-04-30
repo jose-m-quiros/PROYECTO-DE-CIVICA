@@ -409,7 +409,7 @@ a > i:hover {
 @media (max-width: 600px) {
   .concepto img {
     max-width: 300px;
-    height: 220px;
+    height: 200px;
     display: block;
     margin: 0 auto; /* Centrar las imágenes horizontalmente */
   }
